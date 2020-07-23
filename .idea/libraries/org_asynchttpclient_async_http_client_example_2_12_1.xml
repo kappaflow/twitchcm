@@ -1,0 +1,48 @@
+<component name="libraryTable">
+  <library name="org.asynchttpclient:async-http-client-example:2.12.1" type="repository">
+    <properties maven-id="org.asynchttpclient:async-http-client-example:2.12.1" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../libs/async-http-client-example-2.12.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../libs/async-http-client-2.12.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../libs/async-http-client-netty-utils-2.12.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../libs/netty-buffer-4.1.48.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../libs/netty-codec-http-4.1.48.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../libs/netty-common-4.1.48.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../libs/netty-transport-4.1.48.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../libs/netty-codec-4.1.48.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../libs/netty-handler-4.1.48.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../libs/netty-resolver-4.1.48.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../libs/netty-codec-socks-4.1.48.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../libs/netty-handler-proxy-4.1.48.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../libs/netty-transport-native-epoll-4.1.48.Final-linux-x86_64.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../libs/netty-transport-native-unix-common-4.1.48.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../libs/netty-transport-native-kqueue-4.1.48.Final-osx-x86_64.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../libs/reactive-streams-1.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../libs/netty-reactive-streams-2.0.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../libs/slf4j-api-1.7.30.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../libs/javax.activation-1.2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../libs/async-http-client-example-2.12.1-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../libs/async-http-client-2.12.1-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../libs/async-http-client-netty-utils-2.12.1-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../libs/netty-buffer-4.1.48.Final-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../libs/netty-codec-http-4.1.48.Final-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../libs/netty-common-4.1.48.Final-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../libs/netty-transport-4.1.48.Final-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../libs/netty-codec-4.1.48.Final-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../libs/netty-handler-4.1.48.Final-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../libs/netty-resolver-4.1.48.Final-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../libs/netty-codec-socks-4.1.48.Final-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../libs/netty-handler-proxy-4.1.48.Final-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../libs/netty-transport-native-epoll-4.1.48.Final-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../libs/netty-transport-native-unix-common-4.1.48.Final-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../libs/netty-transport-native-kqueue-4.1.48.Final-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../libs/reactive-streams-1.0.3-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../libs/netty-reactive-streams-2.0.4-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../libs/slf4j-api-1.7.30-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../libs/javax.activation-1.2.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>
