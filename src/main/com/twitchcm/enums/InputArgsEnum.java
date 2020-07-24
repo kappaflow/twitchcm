@@ -49,7 +49,7 @@ public enum InputArgsEnum {
 
     //Actions
     FETCH_CLIPS("fetch", "fetchClips", "Fetch clips from a specific broadcaster", false),
-    FETCH_TOP_CLIPS("fetchTop", "fetchTopClips", "Fetch top clips from a specific broadcaster. startedAt, endedAt and deltaPeriod doesn't affect the result", false),
+    FETCH_TOP_CLIPS("fetchTop", "fetchTopClips", "Fetch top clips from a specific broadcaster", false),
     FETCH_DASHBOARD_CLIPS("fetchDashboard", "fetchDashboardClips", "Fetch clips from the dashboard", false),
     DISTINCT_FETCHED_CLIPS("distinct", "distinctFetchedClips", "Parse fetched clips in a new file making clips entries unique", false),
     DOWNLOAD_CLIPS("download", "downloadFetchedClips", "Download fetched clips multithreaded", false),

@@ -346,10 +346,10 @@ public class InputArgsProcessor
 
     private void initFetchFilterOptions()
     {
-        Option broadcasterName = new Option( BROADCASTER_ID.getOpt(), null, BROADCASTER_ID.hasArg(),
+        Option broadcasterId = new Option( BROADCASTER_ID.getOpt(), null, BROADCASTER_ID.hasArg(),
                 BROADCASTER_ID.getDesc() );
-        broadcasterName.setRequired( true );
-        m_secOptions.addOption( broadcasterName );
+        broadcasterId.setRequired( true );
+        m_secOptions.addOption( broadcasterId );
 
         Option startedAt = new Option( STARTED_AT.getOpt(), null, STARTED_AT.hasArg(), STARTED_AT.getDesc() );
         startedAt.setRequired( false );
@@ -362,6 +362,18 @@ public class InputArgsProcessor
         Option deltaPeriod = new Option( DELTA.getOpt(), null, DELTA.hasArg(), DELTA.getDesc() );
         deltaPeriod.setRequired( false );
         m_secOptions.addOption( deltaPeriod );
+
+        Option chunkLimit = new Option( CHUNK_LIMIT.getOpt(), null, CHUNK_LIMIT.hasArg(), CHUNK_LIMIT.getDesc() );
+        chunkLimit.setRequired( false );
+        m_secOptions.addOption( chunkLimit );
+    }
+
+    private void initFetchTopFilterOptions()
+    {
+        Option broadcasterId = new Option( BROADCASTER_ID.getOpt(), null, BROADCASTER_ID.hasArg(),
+                BROADCASTER_ID.getDesc() );
+        broadcasterId.setRequired( true );
+        m_secOptions.addOption( broadcasterId );
 
         Option chunkLimit = new Option( CHUNK_LIMIT.getOpt(), null, CHUNK_LIMIT.hasArg(), CHUNK_LIMIT.getDesc() );
         chunkLimit.setRequired( false );
@@ -492,7 +504,7 @@ public class InputArgsProcessor
         initClientIdOption();
         initClientSecretOption();
         initRootDirOption();
-        initFetchFilterOptions();
+        initFetchTopFilterOptions();
     }
 
     private void initFetchDashboardClipOptions()
@@ -529,8 +541,6 @@ public class InputArgsProcessor
         m_secOptions.addOption( download );
 
         initAllowOverwriteOption();
-        initClientIdOption();
-        initClientSecretOption();
         initRootDirOption();
         initProceedFilterOptions();
         initNumPerTimeOption();

@@ -6,6 +6,7 @@
 
 [Changelog](./CHANGELOG.md) [TODO](./TODO)
 
+#### [Download](https://github.com/kappaflow/twitchcm/releases)
 #### [Support](https://github.com/kappaflow/twitchcm/issues)
 
 --------
@@ -37,7 +38,7 @@ The tool can be used for different purposes. There are some examples:
     * Sign in on Twitch using Chrome/Firefox/Edge (and stay on a twitch page)
     * Go to "Inspect" (Ctrl+Shift+I) -> "Application" tab
     * [Go to "Cookies" and copy the auth-token value](.github/auth-token.jpg)
-3. Run the command line application. (make sure you have [Java 1.8+](https://adoptopenjdk.net/?variant=openjdk8&jvmVariant=hotspot) installed):  
+3. Run [the command line application](https://github.com/kappaflow/twitchcm/releases). (make sure you have [Java 1.8+](https://www.oracle.com/java/technologies/javase-jre8-downloads.html) installed):  
 `java -jar twitchcm.jar` or `twitchcm.exe`
 ```
 usage: twitchcm -[action]
@@ -48,8 +49,7 @@ usage: twitchcm -[action]
   -download         Download fetched clips multithreaded
   -fetch            Fetch clips from a specific broadcaster
   -fetchDashboard   Fetch clips from the dashboard
-  -fetchTop         Fetch top clips from a specific broadcaster. startedAt,
-                    endedAt and deltaPeriod doesn't affect the result
+  -fetchTop         Fetch top clips from a specific broadcaster
   -utils            Utility tools
 ```
 The information about parameters is available in the app when the action is specified.
