@@ -57,7 +57,7 @@ The information about parameters is available in the app when the action is spec
 #### Recommendations
 * The fetching period (*DELTA_PERIOD*) specified should have less than ~1000 clips to avoid missing clips (the global fetching period can have any date range).
 * Fetching can crawl the same clips multiple times. To clean the list `-distinct` can be used.
-* CLIENT_ID, CLIENT_SECRET, AUTH_TOKEN can be specified in *ClipsManager* before compiling. It may not be safe, but can be used in some cases to avoid entering credentials every time.
+* *clientId*, *clientSecret*, *authToken* can be specified in *config.properties*. There are 2 ways to do it: 1st way - before compiling in the *resources* folder; 2nd way - put *config.properties* in the directory with an executable file (it applies above the embedded one). It may not be safe, but can be used in some cases to avoid entering credentials every time.
 * Log level can be specified for most classes for the debugging to show more/less info.
 
 ## Modules

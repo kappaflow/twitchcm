@@ -8,7 +8,7 @@ public enum InputArgsEnum {
     //Auth
     CLIENT_ID("clientId", "clientId", "API client id", true),
     CLIENT_SECRET("clientSecret", "clientSecret", "API client secret", true),
-    AUTH_TOKEN("auth", "authToken", "auth-token from cookies", true),
+    AUTH_TOKEN("authToken", "authToken", "auth-token from cookies", true),
 
     //FetchFilter
     BROADCASTER_ID("chId", "broadcasterId", "Channel id (user id) of a broadcaster from which the clip was created. Channel id can be obtained by using chNameToId Util", true),

@@ -5,6 +5,10 @@
 src/main/ignore_commit
 outputDir
 
+#Resources config
+resources/config.properties
+config.properties
+
 .idea/**/vcs.xml
 
 # User-specific stuff
