@@ -1,8 +1,8 @@
 # [Twitch](https://www.twitch.tv/) Clips Manager
 
-![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/kappaflow/twitchcm?include_prereleases)
-![Java 1.8](https://img.shields.io/badge/Java-1.8-blue)
-![LICENSE](https://img.shields.io/github/license/kappaflow/twitchcm)
+[![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/kappaflow/twitchcm?include_prereleases)](https://github.com/kappaflow/twitchcm/releases)
+[![Java 1.8](https://img.shields.io/badge/Java-1.8-blue)](https://www.oracle.com/java/technologies/javase-jre8-downloads.html)
+[![LICENSE](https://img.shields.io/github/license/kappaflow/twitchcm)](https://github.com/kappaflow/twitchcm/blob/master/LICENSE)
 
 [Changelog](./CHANGELOG.md) [TODO](./TODO)
 
